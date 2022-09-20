@@ -11,7 +11,7 @@ Iterator被创建后回建立一个指向原来对象的单链索引表，当原
  */
 public class enhancedForloop {
     public static void main(String[] args) {
-        ArrayList<Integer> students = new ArrayList<>(Arrays.asList(1,2,3,4,5));
+        ArrayList<Integer> students = new ArrayList<>(Arrays.asList(5,2,3,4,1));
         Iterator iterator = students.iterator();
         while (iterator.hasNext()){
             Object obj = iterator.next();
