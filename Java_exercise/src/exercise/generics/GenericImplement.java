@@ -1,4 +1,4 @@
-package exercise.generics;
+package exercise.Generics;
 /*
 泛型接口实现类 不指定类型：
 class GeneratorImpl<T> implements Generator<T>{

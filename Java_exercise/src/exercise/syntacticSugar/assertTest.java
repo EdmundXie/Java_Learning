@@ -1,4 +1,4 @@
-package exercise.syntacticSugar;
+package exercise.SyntacticSugar;
 /*
 断言 断言为真时继续执行代码，反之中断执行 需要在JVM配置中 -ea 开启断言检查开关，否则回忽略断言
  */

@@ -1,4 +1,4 @@
-package exercise.generics;
+package exercise.Generics;
 
 public class Main {
     public static <T> void printArray(T[] inputArray){

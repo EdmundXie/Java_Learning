@@ -1,4 +1,4 @@
-package exercise.generics;
+package exercise.Generics;
 /*
 泛型接口
  */

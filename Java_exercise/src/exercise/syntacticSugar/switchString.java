@@ -1,4 +1,4 @@
-package exercise.syntacticSugar;
+package exercise.SyntacticSugar;
 /*
 Java语法糖支持 switch和枚举
  */

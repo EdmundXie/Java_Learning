@@ -1,4 +1,4 @@
-package exercise.syntacticSugar;
+package exercise.SyntacticSugar;
 /*
 泛型类的静态变量与所有实例共享
  */

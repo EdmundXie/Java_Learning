@@ -1,4 +1,4 @@
-package exercise.generics;
+package exercise.Generics;
 /*
 静态泛型方法 预先加载 静态泛型方法优先类的实例化 使用详见main
  */

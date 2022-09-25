@@ -1,4 +1,4 @@
-package exercise.cllection;
+package exercise.CollectionandMap;
 /*
 Comparable用于自比较，重写compareTo；Comparator用于两个对象比较，重写compare，两者都为接口
  */

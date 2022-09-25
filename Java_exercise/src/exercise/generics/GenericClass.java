@@ -1,4 +1,4 @@
-package exercise.generics;
+package exercise.Generics;
 /*
 泛型类，使用时必须指定T的类型
 GenericClass<Integer> GC = new GenericClass<>(3456);

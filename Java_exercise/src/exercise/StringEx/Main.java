@@ -1,4 +1,4 @@
-package exercise.string;
+package exercise.StringEx;
 
 /**
  * 字符串常量值J
