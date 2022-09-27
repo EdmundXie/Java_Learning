@@ -4,9 +4,9 @@ package exercise.SyntacticSugar;
  */
 public class StaticTest{
     public static void main(String[] args){
-        GT<Integer> gti = new GT<Integer>();
+        GT<Integer> gti = new GT();
         gti.var=1;
-        GT<String> gts = new GT<String>();
+        GT<String> gts = new GT();
         gts.var=2;
         System.out.println(gti.var);
     }

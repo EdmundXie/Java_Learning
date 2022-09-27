@@ -1,6 +1,5 @@
 package exercise.Polymorphism;
 
-import javax.naming.Name;
 
 /*
 父类构造方法会在子类之前执行
