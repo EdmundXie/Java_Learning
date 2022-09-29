@@ -33,10 +33,9 @@ public class HashMapTraversal {
 
         //遍历部分
         Iterator<Map.Entry<Integer,String>> iterator = map.entrySet().iterator();
-        while(iterator.hasNext()){
+        while (iterator.hasNext()){
             Map.Entry<Integer,String> entry = iterator.next();
-            System.out.println(entry.getKey());
-            System.out.println(entry.getValue());
+            System.out.println(entry.getKey()+entry.getValue());
         }
     }
 }
