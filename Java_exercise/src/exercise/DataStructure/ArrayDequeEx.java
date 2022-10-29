@@ -8,13 +8,19 @@ ArrayDeque
 * 默认从队尾加入，从队头删除
  */
 import java.util.ArrayDeque;
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
 
 public class ArrayDequeEx {
     public static void main(String[] args){
-        ArrayDeque<Integer> deque = new ArrayDeque<>();
-        deque.add(100);
-        deque.add(50);
-        deque.removeFirst();
-        System.out.println(deque);
+//        ArrayDeque<Integer> deque = new ArrayDeque<>();
+//        deque.add(100);
+//        deque.add(50);
+//        deque.removeFirst();
+//        System.out.println(deque);
+
+        Map<Integer,Integer> map = new HashMap<>();
+        System.out.println(map.get(3));
     }
 }
