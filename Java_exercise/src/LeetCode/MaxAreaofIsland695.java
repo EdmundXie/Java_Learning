@@ -7,6 +7,7 @@ package LeetCode;
  * @Data:2022/11/16 17:18
  * @Email: 609031809@qq.com
  * @Description:
+ * 695 Max Area of Island: 不同于求岛的数量，该问题求最大岛的面积
  * 岛问题DFS思路：建立directions数组，遍历所有节点递归进行DFS。
  */
 public class MaxAreaofIsland695 {
@@ -28,6 +29,7 @@ public class MaxAreaofIsland695 {
         if(x<0||x>=m||y<0||y>=n||grid[x][y]==0){
             return 0;
         }
+        grid[x][y]=0;
         int area =1;
         for(int[] d:directions){
             area+= dfs(grid,x+d[0],y+d[1]);
