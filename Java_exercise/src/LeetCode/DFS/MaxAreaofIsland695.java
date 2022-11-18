@@ -1,4 +1,4 @@
-package LeetCode;
+package LeetCode.DFS;
 
 /**
  * @Projectname: Java_exercise
