@@ -24,7 +24,7 @@ public class NumberOfProvinces547 {
         }
         return num;
     }
-    private void dfs(int[][] grid;int x;boolean[] isVisited){
+    private void dfs(int[][] grid,int x,boolean[] isVisited){
         isVisited[x] = true;
         for(int k=0;k<m;k++){
             if(grid[x][k]==1&&isVisited[k]!=true){

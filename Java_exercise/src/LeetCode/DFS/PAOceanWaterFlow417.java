@@ -30,7 +30,7 @@ public class PAOceanWaterFlow417 {
         }
         for(int j=0;j<n;j++){
             dfs(canReachP,0,j);
-            dfs(canReachA,m-1,p)
+            dfs(canReachA,m-1,j);
         }
         for(int i=0;i<m;i++){
             for(int j=0;j<n;j++){
