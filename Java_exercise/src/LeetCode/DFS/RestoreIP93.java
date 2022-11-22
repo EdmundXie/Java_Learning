@@ -18,13 +18,11 @@ public class RestoreIP93 {
         return ans;
     }
     private void dfs(int k,StringBuilder str,String s,List<String> ans){
-        if(k==4||s.length()==0){
-            return;
-        }
         if(k==4&&s.length()==0){
             ans.add(str.toString());
             return;
         }
+        else if(k==4||s.length()==0)return;
         for(int i=0;i<=2&&i<s.length();i++){
             if(s.charAt(0)==0&&i!=0)break;
             String part = s.substring(0,i+1);
