@@ -1,4 +1,4 @@
-package LeetCode.DFS;
+package LeetCode.BackTracking;
 
 import java.util.ArrayList;
 import java.util.List;

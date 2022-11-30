@@ -1,4 +1,4 @@
-package LeetCode.DFS;
+package LeetCode.BackTracking;
 
 /**
  * @Projectname: Java_exercise
